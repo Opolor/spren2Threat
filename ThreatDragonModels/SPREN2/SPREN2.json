@@ -64,6 +64,52 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a33a1aa6-b594-4007-9249-714923c2d7c5"
+              },
+              "target": {
+                "id": "d266c97e-ed0c-45d9-b8b6-5b4956d382c2"
+              },
+              "vertices": [],
+              "id": "18bb03e8-b105-4ff3-95bb-1b45fb064588",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5415652583278691,
+                    "offset": 1.348702588865339
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Datenverkehr",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Network Infiltration",
+                  "type": "Information disclosure",
+                  "description": "Public OKD cluster compromised, EnterpriseLab compromised?"
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
