@@ -20,8 +20,8 @@
                 "height": 100
               },
               "position": {
-                "x": 330,
-                "y": 120
+                "x": 338,
+                "y": 122
               },
               "angle": 0,
               "id": "abe6f0c4-d28b-460a-b57a-728a64e7a8c5",
@@ -47,8 +47,8 @@
                 "height": 100
               },
               "position": {
-                "x": 120,
-                "y": 120
+                "x": 81,
+                "y": 128
               },
               "angle": 0,
               "id": "0228bc83-3642-4811-9e12-949f8997960e",
@@ -59,7 +59,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Workernodes\n1-2"
+                  "text": "Workernodes\n1-3"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -73,8 +73,8 @@
                 "height": 100
               },
               "position": {
-                "x": 580,
-                "y": 50
+                "x": 644,
+                "y": 124
               },
               "angle": 0,
               "id": "52219912-3038-4b47-a0b5-40c5e5aa85a1",
@@ -86,7 +86,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Loadbalancer\nfür intern"
+                  "text": "Loadbalancer\nOKD MGMT"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -100,8 +100,8 @@
                 "height": 100
               },
               "position": {
-                "x": 580,
-                "y": 210
+                "x": 1096,
+                "y": 496
               },
               "angle": 0,
               "id": "6eb84427-a0d3-4e15-b04a-9596d9374349",
@@ -113,7 +113,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Loadbalancer\nfür extern"
+                  "text": "Loadbalancer\nOKD DMZ"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -124,8 +124,8 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 1020,
-                "y": 30
+                "x": 1073,
+                "y": 36
               },
               "target": {
                 "x": 20,
@@ -137,16 +137,12 @@
               },
               "vertices": [
                 {
-                  "x": 970,
-                  "y": 200
+                  "x": 913,
+                  "y": 288
                 },
                 {
-                  "x": 670,
-                  "y": 370
-                },
-                {
-                  "x": 220,
-                  "y": 380
+                  "x": 277,
+                  "y": 342
                 }
               ],
               "id": "bfda581e-67ca-4cba-9d96-43d3e9dab337",
@@ -280,8 +276,8 @@
                 "height": 80
               },
               "position": {
-                "x": 810,
-                "y": 60
+                "x": 852,
+                "y": 53
               },
               "angle": 0,
               "id": "a05b2ca3-6645-4d83-b6c6-f11522394b10",
@@ -292,7 +288,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Userinterface via VPN\nintern"
+                  "text": "Userinterface intern (via\nVPN)"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -306,8 +302,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1010,
-                "y": 360
+                "x": 1241,
+                "y": 212
               },
               "angle": 0,
               "id": "9dfd84cc-2382-4400-a787-54533cfc155a",
@@ -469,7 +465,10 @@
               "id": "ebe36468-0f0e-42f2-af06-69c01d82b733",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.5782364124116325,
+                    "offset": 1.1905964889367557
+                  },
                   "attrs": {
                     "text": {
                       "text": "push and pull Images",
@@ -698,6 +697,31 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 988,
+                "y": 619
+              },
+              "target": {
+                "x": 1375,
+                "y": 594
+              },
+              "vertices": [
+                {
+                  "x": 1029,
+                  "y": 468
+                },
+                {
+                  "x": 1213,
+                  "y": 439
+                }
+              ],
+              "id": "b13b7b2c-fbfc-4a01-af5d-cb38a09cdcfc",
+              "z": 39,
+              "attrs": {}
             }
           ]
         },
