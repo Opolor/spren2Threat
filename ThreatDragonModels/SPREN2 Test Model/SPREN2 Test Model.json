@@ -422,40 +422,6 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "61374e1b-c553-4480-992a-36a40c004441"
-              },
-              "target": {
-                "id": "0228bc83-3642-4811-9e12-949f8997960e"
-              },
-              "vertices": [],
-              "id": "ab3f7b6b-8b92-42a1-9648-ae141a967201",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 18",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 31,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
                 "id": "0228bc83-3642-4811-9e12-949f8997960e"
               },
               "target": {
