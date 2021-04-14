@@ -126,8 +126,8 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 1010,
-                "y": 30
+                "x": 990,
+                "y": 10
               },
               "target": {
                 "x": 1,
@@ -214,7 +214,7 @@
               },
               "target": {
                 "x": 350,
-                "y": 680
+                "y": 700
               },
               "size": {
                 "width": 10,
@@ -241,8 +241,8 @@
                 "height": 80
               },
               "position": {
-                "x": 840,
-                "y": 590
+                "x": 830,
+                "y": 600
               },
               "angle": 0,
               "id": "a05b2ca3-6645-4d83-b6c6-f11522394b10",
@@ -292,11 +292,11 @@
               "smooth": true,
               "source": {
                 "x": 450,
-                "y": 680
+                "y": 700
               },
               "target": {
                 "x": 1100,
-                "y": 680
+                "y": 690
               },
               "size": {
                 "width": 10,
@@ -431,8 +431,8 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 1230,
-                "y": 660
+                "x": 1250,
+                "y": 680
               },
               "target": {
                 "x": 1405,
