@@ -205,6 +205,12 @@
                   "severity": "Medium",
                   "title": "Exploiting vulnerable Images",
                   "type": "Elevation of privilege"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Infected Images",
+                  "type": "Tampering"
                 }
               ],
               "attrs": {
