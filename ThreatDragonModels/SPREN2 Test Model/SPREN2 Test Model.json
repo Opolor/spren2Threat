@@ -609,22 +609,31 @@
                 "height": 100
               },
               "position": {
-                "x": 820,
-                "y": 170
+                "x": 821,
+                "y": 171
               },
               "angle": 0,
               "id": "75112df9-99bf-49a6-85b5-9e2e321f82aa",
               "z": 43,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "Welcher User haben Berechtigungen auf die Infranodes, kann ein Angreifer den Traffic abschalten, umleiten, gibt es Policies Schutzmassnahmen?",
+                  "title": "Berechtigungen",
+                  "type": "Denial of service"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Infra Nodes\nEDU/SVC/RES"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
