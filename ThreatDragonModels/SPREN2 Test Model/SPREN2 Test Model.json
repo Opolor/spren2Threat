@@ -20,32 +20,23 @@
                 "height": 100
               },
               "position": {
-                "x": 102,
-                "y": 172
+                "x": 100,
+                "y": 170
               },
               "angle": 0,
               "id": "abe6f0c4-d28b-460a-b57a-728a64e7a8c5",
               "z": 1,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "description": "virtual on ESXi",
-              "threats": [
-                {
-                  "status": "Open",
-                  "severity": "Medium",
-                  "title": "Config Policies",
-                  "type": "Information disclosure",
-                  "description": "Keine policies über die erstellung von Containern (z.B. Dockerfile oder Docker Compose) könnte zur Information disclosure durch malware führen (ungesicherte Images).  Policies ähnlich wie Docker Security Benchmark sollten vorhanden sein"
-                }
-              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Masternodes\n1-3"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -200,17 +191,31 @@
               "angle": 0,
               "id": "61374e1b-c553-4480-992a-36a40c004441",
               "z": 12,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isEncrypted": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Backdoor in legitime Docker Images",
+                  "type": "Tampering"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Exploiting vulnerable Images",
+                  "type": "Elevation of privilege"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Registry (Quay.io)"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
