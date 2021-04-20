@@ -173,17 +173,26 @@
               "angle": 0,
               "id": "98f64dcf-b248-4348-bd4b-9f5a4246fa41",
               "z": 11,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isEncrypted": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "IAM",
+                  "type": "Information disclosure",
+                  "description": "Unsichere Berechtigungen auf die Backups im Storage. \nUser die eigentlich kein Zugriff darauf hätten sollten können auf diese Backups zugreifen"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Storage"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
