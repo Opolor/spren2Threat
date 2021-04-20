@@ -198,7 +198,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "title": "Backdoor in legitime Docker Images",
-                  "type": "Tampering"
+                  "type": "Spoofing"
                 },
                 {
                   "status": "Open",
@@ -209,8 +209,8 @@
                 {
                   "status": "Open",
                   "severity": "Medium",
-                  "title": "Infected Images",
-                  "type": "Tampering"
+                  "title": "Images including malicious software",
+                  "type": "Spoofing"
                 }
               ],
               "attrs": {
