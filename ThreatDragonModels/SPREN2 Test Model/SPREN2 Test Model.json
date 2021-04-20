@@ -62,17 +62,25 @@
               "angle": 0,
               "id": "0228bc83-3642-4811-9e12-949f8997960e",
               "z": 4,
-              "hasOpenThreats": false,
-              "threats": [],
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "Container/Pods können Ressourcen andere am laufenden Pods in Anspruch nehmen. (cgroups in Docker)",
+                  "title": "Ressourcen",
+                  "type": "Denial of service"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Workernodes\n1-3"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
