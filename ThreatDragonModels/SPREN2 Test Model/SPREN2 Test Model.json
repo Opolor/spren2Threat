@@ -26,17 +26,26 @@
               "angle": 0,
               "id": "abe6f0c4-d28b-460a-b57a-728a64e7a8c5",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "description": "virtual on ESXi",
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Policies",
+                  "description": "Unsichere Konfiguration für die Container/Pods die auf dem Workernodes laufen.\n(z.B. unsignierte Images)"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Masternodes\n1-3"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
