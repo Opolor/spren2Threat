@@ -77,6 +77,13 @@
                   "description": "Können Container miteinander kommunizieren? Ist ein Angreifer in der Lage von einem infizierten Container in einen anderen zu gelangen?",
                   "title": "Container Verkehr",
                   "type": "Elevation of privilege"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "Container wird im Workernode gestartet (bind Mount) an ein unautorisiertes Directory.",
+                  "title": "Privesc",
+                  "type": "Elevation of privilege"
                 }
               ],
               "attrs": {
