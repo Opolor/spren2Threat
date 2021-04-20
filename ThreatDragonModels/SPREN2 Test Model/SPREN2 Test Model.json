@@ -293,17 +293,25 @@
               "angle": 0,
               "id": "9dfd84cc-2382-4400-a787-54533cfc155a",
               "z": 17,
-              "hasOpenThreats": false,
-              "threats": [],
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "title": "Webinterface wird gespoofed",
+                  "description": "Ein Duplikat des Webinterfaces wird im Internet veröffentlicht um an Zugangsdaten zu geladen."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Userinterface via\ninternet public"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
