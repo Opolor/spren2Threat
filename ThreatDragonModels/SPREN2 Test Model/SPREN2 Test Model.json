@@ -70,6 +70,13 @@
                   "description": "Container/Pods können Ressourcen andere am laufenden Pods in Anspruch nehmen. (cgroups in Docker)",
                   "title": "Ressourcen",
                   "type": "Denial of service"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "Können Container miteinander kommunizieren? Ist ein Angreifer in der Lage von einem infizierten Container in einen anderen zu gelangen?",
+                  "title": "Container Verkehr",
+                  "type": "Elevation of privilege"
                 }
               ],
               "attrs": {
