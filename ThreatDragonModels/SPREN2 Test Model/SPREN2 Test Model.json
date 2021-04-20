@@ -308,6 +308,12 @@
                   "type": "Tampering",
                   "title": "Man-in-the-Middle",
                   "description": "Datenverkehr wird abgefangen und verändert."
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "title": "Webinterface mit Anfragen fluten"
                 }
               ],
               "attrs": {
