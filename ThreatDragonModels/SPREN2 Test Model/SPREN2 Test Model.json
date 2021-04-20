@@ -267,16 +267,39 @@
               "angle": 0,
               "id": "a05b2ca3-6645-4d83-b6c6-f11522394b10",
               "z": 17,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Webinterface wird gespoofed",
+                  "description": "Ein Duplikat des Webinterfaces wird im Internet veröffentlicht um an Zugangsdaten zu geladen.",
+                  "type": "Spoofing"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Man-in-the-Middle",
+                  "type": "Tampering",
+                  "mitigation": "",
+                  "description": "Datenverkehr wird abgefangen und verändert."
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Webinterface mit Anfragen fluten",
+                  "type": "Denial of service"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Userinterface intern (via\nVPN)"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
