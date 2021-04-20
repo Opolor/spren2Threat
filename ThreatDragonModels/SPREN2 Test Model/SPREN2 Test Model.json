@@ -289,6 +289,12 @@
                   "severity": "Medium",
                   "title": "Webinterface mit Anfragen fluten",
                   "type": "Denial of service"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Injection Attack",
+                  "type": "Repudiation"
                 }
               ],
               "attrs": {
@@ -337,6 +343,13 @@
                   "severity": "Medium",
                   "type": "Denial of service",
                   "title": "Webinterface mit Anfragen fluten"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Injection Attack",
+                  "description": ""
                 }
               ],
               "attrs": {
@@ -814,6 +827,12 @@
                   "severity": "Medium",
                   "title": "Webinterface mit Anfragen fluten",
                   "type": "Denial of service"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Injection Attack",
+                  "type": "Repudiation"
                 }
               ],
               "attrs": {
