@@ -405,6 +405,13 @@
                   "type": "Information disclosure",
                   "title": "Injection Attack",
                   "description": ""
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "OWASP Top 10 Angriffe auf das Web Interface des Loadbalancers, kann fehlenden Massnahmen (wie eine WAF) zu Information Disclosure führen",
+                  "title": "Web Login OWASP 10",
+                  "type": "Information disclosure"
                 }
               ],
               "attrs": {
