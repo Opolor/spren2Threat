@@ -301,6 +301,13 @@
                   "type": "Spoofing",
                   "title": "Webinterface wird gespoofed",
                   "description": "Ein Duplikat des Webinterfaces wird im Internet veröffentlicht um an Zugangsdaten zu geladen."
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "title": "Man-in-the-Middle",
+                  "description": "Datenverkehr wird abgefangen und verändert."
                 }
               ],
               "attrs": {
