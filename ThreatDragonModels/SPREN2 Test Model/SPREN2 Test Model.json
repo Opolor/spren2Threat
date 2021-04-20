@@ -84,6 +84,13 @@
                   "description": "Container wird im Workernode gestartet (bind Mount) an ein unautorisiertes Directory.",
                   "title": "Privesc",
                   "type": "Elevation of privilege"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "Mit Welchen Privileges werden Pods gestartet? Was kann ein Nutzer auf dem Pod anrichten? (z.B. Kernel Space – Escaping?) (Capabilities)",
+                  "title": "Pod/Container Security Policies",
+                  "type": "Information disclosure"
                 }
               ],
               "attrs": {
