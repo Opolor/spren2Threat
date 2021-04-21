@@ -35,13 +35,6 @@
                   "type": "Information disclosure",
                   "title": "Policies",
                   "description": "Unsichere Konfiguration für die Container/Pods die auf dem Workernodes laufen.\n(z.B. unsignierte Images)"
-                },
-                {
-                  "status": "Open",
-                  "severity": "Medium",
-                  "title": "redundant",
-                  "type": "Denial of service",
-                  "description": "Wenn eine masternode down ist kann er die workernodes nicht mehr ansprechen"
                 }
               ],
               "attrs": {
@@ -64,7 +57,7 @@
               },
               "position": {
                 "x": 480,
-                "y": 170
+                "y": 171
               },
               "angle": 0,
               "id": "0228bc83-3642-4811-9e12-949f8997960e",
@@ -95,7 +88,7 @@
                 {
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "Mit Welchen Privileges werden Pods gestartet? Was kann ein Nutzer auf dem Pod anrichten? (z.B. Kernel Space – Escaping?) (Capabilities)",
+                  "description": "Mit welchen Privileges werden Pods gestartet? Was kann ein Nutzer auf dem Pod anrichten? (z.B. Kernel Space – Escaping?) (Capabilities)",
                   "title": "Pod/Container Security Policies",
                   "type": "Information disclosure"
                 }
@@ -154,7 +147,7 @@
               },
               "position": {
                 "x": 1220,
-                "y": 500
+                "y": 470
               },
               "angle": 0,
               "id": "6eb84427-a0d3-4e15-b04a-9596d9374349",
@@ -167,6 +160,12 @@
                   "severity": "Medium",
                   "description": "DDOS Angriff auf dem Loadbalancer des OKD",
                   "title": "DDOS",
+                  "type": "Denial of service"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Misconfiguration",
                   "type": "Denial of service"
                 }
               ],
@@ -287,6 +286,22 @@
                   "severity": "Medium",
                   "title": "Images including malicious software",
                   "type": "Spoofing"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Veröffentlichung von Images",
+                  "type": "Information disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "Images mit sensiblen Informationen könnten öffentlich zugänglich sein."
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Verfügbarkeit Registry",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "Verfügbarkeit Registry durch (D)DoS Attacke gefährdet"
                 }
               ],
               "attrs": {
@@ -433,6 +448,13 @@
                   "description": "OWASP Top 10 Angriffe auf das Web Interface des Loadbalancers, kann fehlenden Massnahmen (wie eine WAF) zu Information Disclosure führen",
                   "title": "Web Login OWASP 10",
                   "type": "Information disclosure"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "title": "User erhält Admin-Rechte",
+                  "description": "Ein Angreifer kann sich als Benutzer mit höheren Rechten einloggen."
                 }
               ],
               "attrs": {
@@ -520,24 +542,7 @@
               "target": {
                 "id": "61374e1b-c553-4480-992a-36a40c004441"
               },
-              "vertices": [
-                {
-                  "x": 453,
-                  "y": 345
-                },
-                {
-                  "x": 434,
-                  "y": 367
-                },
-                {
-                  "x": 396,
-                  "y": 403
-                },
-                {
-                  "x": 327,
-                  "y": 468
-                }
-              ],
+              "vertices": [],
               "id": "ebe36468-0f0e-42f2-af06-69c01d82b733",
               "labels": [
                 {
@@ -645,7 +650,7 @@
               },
               "position": {
                 "x": 590,
-                "y": 490
+                "y": 500
               },
               "angle": 0,
               "id": "037540ea-cc22-417d-b2df-1688db67a07e",
@@ -938,7 +943,7 @@
                   "severity": "Medium",
                   "title": "Webinterface wird gespoofed",
                   "type": "Spoofing",
-                  "description": "Ein Duplikat des Webinterfaces wird im Internet veröffentlicht um an Zugangsdaten zu geladen."
+                  "description": "Ein Duplikat des Webinterfaces wird im Internet veröffentlicht um an Zugangsdaten zu gelangen."
                 },
                 {
                   "status": "Open",
