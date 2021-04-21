@@ -35,6 +35,13 @@
                   "type": "Information disclosure",
                   "title": "Policies",
                   "description": "Unsichere Konfiguration für die Container/Pods die auf dem Workernodes laufen.\n(z.B. unsignierte Images)"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "redundant",
+                  "type": "Denial of service",
+                  "description": "Wenn eine masternode down ist kann er die workernodes nicht mehr ansprechen"
                 }
               ],
               "attrs": {
@@ -513,7 +520,24 @@
               "target": {
                 "id": "61374e1b-c553-4480-992a-36a40c004441"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 453,
+                  "y": 345
+                },
+                {
+                  "x": 434,
+                  "y": 367
+                },
+                {
+                  "x": 396,
+                  "y": 403
+                },
+                {
+                  "x": 327,
+                  "y": 468
+                }
+              ],
               "id": "ebe36468-0f0e-42f2-af06-69c01d82b733",
               "labels": [
                 {
