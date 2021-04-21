@@ -35,6 +35,13 @@
                   "type": "Information disclosure",
                   "title": "Policies",
                   "description": "Unsichere Konfiguration für die Container/Pods die auf dem Workernodes laufen.\n(z.B. unsignierte Images)"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Privsec",
+                  "type": "Elevation of privilege",
+                  "description": "Privsec vulnerability um aus den erstellten Pods auszubrechen"
                 }
               ],
               "attrs": {
