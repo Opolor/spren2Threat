@@ -42,6 +42,13 @@
                   "title": "Privsec",
                   "type": "Elevation of privilege",
                   "description": "Privsec vulnerability um aus den erstellten Pods auszubrechen"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Redundante",
+                  "type": "Denial of service",
+                  "description": "DOS angriff auf Masernodes, cluster nicht mehr managen"
                 }
               ],
               "attrs": {
