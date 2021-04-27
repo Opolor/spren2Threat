@@ -1,10 +1,26 @@
 {
   "summary": {
     "title": "SPREN2 Test Model",
-    "owner": "Lukas"
+    "owner": "Lukas Mettler"
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Stefan Hartmann"
+      },
+      {
+        "name": "Alessia Baumeler"
+      },
+      {
+        "name": "Sandro Koch"
+      },
+      {
+        "name": "Samuel Müller"
+      },
+      {
+        "name": "Lennard Ruess"
+      }
+    ],
     "diagrams": [
       {
         "title": "WIPRO OKD Cluster Threat Model",
@@ -1095,6 +1111,6 @@
         }
       }
     ],
-    "reviewer": "Alessia Baumeler, Stefan Hartmann, Sandro Koch, Samuel Müller, Lennard Ruess"
+    "reviewer": ""
   }
 }
