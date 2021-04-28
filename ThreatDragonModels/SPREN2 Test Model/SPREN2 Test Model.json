@@ -254,14 +254,14 @@
                   "severity": "Medium",
                   "title": "IAM",
                   "type": "Information disclosure",
-                  "description": "Unsichere Berechtigungen auf die Backups im Storage. \nUser die eigentlich kein Zugriff darauf hätten sollten können auf diese Backups zugreifen"
+                  "description": "Unsichere Berechtigungen auf den Storage. \nUser die eigentlich kein Zugriff darauf hätten, können auf Storage zugreifen"
                 },
                 {
                   "status": "Open",
                   "severity": "Medium",
                   "title": "Repudiation Verletzt",
                   "type": "Repudiation",
-                  "description": "Angreifer kann disks zugreifen und verändern ohne bemerkt zu werden.\nWird bei den Storage zugriffen logs erzeugt?"
+                  "description": "Angreifer kann auf Disks zugreifen und verändern ohne bemerkt zu werden.\nWird bei den Storage zugriffen logs erzeugt?"
                 }
               ],
               "attrs": {
